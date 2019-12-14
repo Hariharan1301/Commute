@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="16dp">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="48dp"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/commute"
+            android:id="@+id/commuteIcon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:text="COMMMUTE"
+            android:textAllCaps="true"
+            android:textSize="42dp"
+            android:textStyle ="bold"
+            android:id="@+id/commute"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:text="Proceed"
+            android:textAllCaps="false"
+            android:textSize="24dp"
+            android:textStyle ="bold"
+            android:id="@+id/proceed"/>
+
+        <!-- Snippet from "Add text fields" section goes here. -->
+
+        <!-- Snippet from "Add buttons" section goes here. -->
+
+    </LinearLayout>
+</ScrollView>

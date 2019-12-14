@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DetailsPane">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="left"
+            android:padding="10dp"
+            app:srcCompat = "@drawable/profile"
+            android:id="@+id/profileImg"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="100dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="-125dp"
+            android:textSize="32dp"
+            android:text="User Name"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:id="@+id/username"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="Reg. No: "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/userNumber"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="Year: "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/year" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="Dept: "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/deptName"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="Route No: "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/routeNo"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="Boarding Point: "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/boardPoint"/>
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:textSize="25dp"
+            android:text="Availability: "
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:id="@+id/availability"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="25dp"
+            android:text="Change Availability"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/availabilityChange"
+            />
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>
